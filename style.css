@@ -1,0 +1,151 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@font-face {
+    font-family: "feather, sans-serif";
+    src: url("/font/feather.ttf") format("woff2"),
+    url("/font/feather.ttf") format("truetype");
+}
+
+/* body */
+body {
+    background-color: #F5F4F8;
+    font-family: "feather";
+}
+/* navbar */
+.dropdown button img {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.nav-link {
+    color: black;
+}
+
+/* ho dato un pochino di stile alla campanella della navbar */
+.bell {
+    background-color: #dedde1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-menu.cocco {
+    position: absolute;
+    left: -180px;
+}
+
+.immagine-user {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.immagine-user-dropdown {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.pallina-blu {
+    position: absolute;
+    right: 4px;
+    top: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #7153FA;
+}
+
+.pallina-verde {
+    position: absolute;
+    right: 1px;
+    top: 25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #7BC698;
+}
+
+.pallina-verde-dropdown {
+    position: absolute;
+    top: 36px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #7BC698;
+    left: 37px;
+}
+
+#stella {
+    color: black;
+}
+
+.Abdul {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .Abdul {
+        right: 80px;
+    }
+}
+ 
+/* hero */
+
+.row.flex-lg-row-reverse.align-items-center {
+    background-color: #7550FE;
+    flex-wrap: wrap-reverse;
+}
+
+.hero {
+    background-color: #7550FE; 
+}
+
+/* under hero */
+
+.icona {
+    background-color: #FFEEDA;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.bi-camera-video, .bi-clock, .bi-people {
+    color: #C28135;
+}
+
+/* Card */
+
+.carousel-control-prev, .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    background-color: #fff;
+    
+}
+
+.bi-chevron-right, .bi-chevron-left {
+    color: gray;
+}
+
+.bi-bar-chart-fill {
+    color: #7550FE;
+}
+
+.bi-star, .bi-star-fill, .bi-star-half {
+    color: #FFAA46;
+}
+
+/* foto avatar */
+
+.giovanni {
+    width: 25px;
+}
