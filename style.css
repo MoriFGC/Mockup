@@ -124,17 +124,16 @@ body {
 
 /* Carosello */
 
-
-
 /* Card */
 @media screen and (min-width: 1440px) {
     .transition:hover {
-        width: 350px;
-        height: 450px;
+        scale: 1.2;
+        z-index: 2;
     }
     
     .transition {
-        transition: width 1s, height 1s;
+        transition: scale 1s;
+       
     }
 }
 
