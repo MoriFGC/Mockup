@@ -40,6 +40,7 @@ body {
 .immagine-user {
     width: 40px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .immagine-user-dropdown {
@@ -121,7 +122,27 @@ body {
     color: #C28135;
 }
 
+/* Carosello */
+
+
+
 /* Card */
+@media screen and (min-width: 1440px) {
+    .transition:hover {
+        width: 350px;
+        height: 450px;
+    }
+    
+    .transition {
+        transition: width 1s, height 1s;
+    }
+}
+
+
+
+.card {
+    cursor: pointer;
+}
 
 .carousel-control-prev, .carousel-control-next {
     width: 50px;
@@ -148,4 +169,14 @@ body {
 
 .giovanni {
     width: 25px;
+}
+
+/* bookmark */
+
+.bi-bookmark-fill {
+    opacity: 0;
+}
+
+.bi-bookmark-fill:hover {
+    opacity: 1;
 }
