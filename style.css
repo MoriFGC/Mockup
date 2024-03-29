@@ -135,6 +135,10 @@ body {
         transition: scale 1s;
        
     }
+
+    .carousel-inner, .carousel-item {
+        overflow: visible;
+    }
 }
 
 
